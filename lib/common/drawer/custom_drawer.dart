@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'widgets/icon_section.dart';
 import 'widgets/custom_header.dart';
 
 class CustomDrawer extends StatelessWidget {
@@ -9,6 +10,8 @@ class CustomDrawer extends StatelessWidget {
       child: ListView(
         children: [
           CustomHeader(),
+          IconSection(),
+          Divider(color: Colors.grey[500]),
         ],
       ),
     );
